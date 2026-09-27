@@ -1,0 +1,46 @@
+# ==============================
+# Java / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+
+# Maven wrapper JAR
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# IntelliJ IDEA
+# ==============================
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ==============================
+# React / Node / Vite
+# ==============================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+
+# ==============================
+# OS files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
